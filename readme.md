@@ -1,0 +1,3 @@
+- https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/
+- https://towardsdatascience.com/fine-tuning-the-bart-large-model-for-text-summarization-3c69e4c04582
+- https://fasttext.cc/docs/en/crawl-vectors.html
