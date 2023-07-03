@@ -133,6 +133,7 @@ data['cleaned_text'] = cleaned_text
 data['cleaned_summary'] = cleaned_summary
 data['cleaned_summary'].replace('', np.nan, inplace=True)
 data.dropna(axis=0, inplace=True)
+
 data['cleaned_summary'] = data['cleaned_summary'].apply(lambda x: '_START_ ' + x + ' _END_')
 for i in range(5):
     print("Review:", data['cleaned_text'][i])
